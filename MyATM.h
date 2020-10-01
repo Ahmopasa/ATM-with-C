@@ -1,5 +1,5 @@
-#ifndef MYATM_H
-#define MYATM_H
+#ifndef MY_ATM_H
+#define MY_ATM_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -11,12 +11,9 @@
 
 #define CLEAR system("CLS");
 
-void UIScreen();
-void ATMBalance();
-void WithCreditCard();
-void WithoutCreditCard();
+void ui_screen();
 
-#endif // !MYATM_H
+#endif // !MY_ATM_H
 
 
 
